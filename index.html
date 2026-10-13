@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#7d2942" />
+  <meta name="description" content="Wedding invitation of Shubham and Sheetal — 24 to 26 November 2026." />
+  <title>Shubham & Sheetal | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Manrope:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@500;700&display=swap"
+    rel="stylesheet" />
+  <style>
+:root {
+  --wine: #7d2942;
+  --wine-dark: #4b172a;
+  --red: #b84c5d;
+  --saffron: #d79a52;
+  --marigold: #e8bd70;
+  --rose: #dc8790;
+  --ivory: #fffaf1;
+  --cream: #f7ecd9;
+  --ink: #42222c;
+  --green: #19a075;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --hand: 'Noto Sans Devanagari', sans-serif;
+  --sans: 'Manrope', sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: var(--saffron) var(--wine-dark); }
+body { margin: 0; overflow-x: hidden; background: var(--ivory); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+::selection { color: white; background: var(--wine); }
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: linear-gradient(var(--wine-dark), #2e0716); }
+::-webkit-scrollbar-thumb { border: 2px solid transparent; border-radius: 99px; background: linear-gradient(var(--marigold), var(--rose), var(--wine)) border-box; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; }
+.section { padding: 120px max(24px, calc((100vw - 1180px) / 2)); }
+.glass { border: 1px solid rgba(255,255,255,.28); background: rgba(255,248,234,.12); box-shadow: 0 18px 55px rgba(51,4,24,.18); backdrop-filter: blur(16px) saturate(125%); }
+
+.hero { min-height: 100svh; position: relative; overflow: hidden; display: grid; place-items: center; padding: 115px 24px 55px; color: white; background: radial-gradient(circle at 50% 32%, #bb3b4e 0, #851b38 34%, #5c0e2a 69%, #3b071c 100%); }
+.noise { position: absolute; inset: 0; pointer-events: none; opacity: .35; mix-blend-mode: soft-light; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.14'/%3E%3C/svg%3E"); }
+.sun-disc { position: absolute; left: 50%; top: 50%; width: min(68vw,680px); aspect-ratio: 1; border-radius: 50%; transform: translate(-50%,-50%); background: radial-gradient(circle, rgba(255,197,91,.2), rgba(255,158,53,.06) 57%, transparent 58%); box-shadow: 0 0 0 1px rgba(255,206,115,.1), 0 0 0 70px rgba(255,255,255,.018), 0 0 0 140px rgba(255,255,255,.012); animation: breathe 7s ease-in-out infinite; }
+.nav { position: absolute; z-index: 10; top: 22px; left: 50%; width: min(1160px,calc(100% - 40px)); min-height: 66px; display: flex; align-items: center; justify-content: space-between; padding: 0 13px 0 20px; border-radius: 18px; transform: translateX(-50%); }
+.monogram { font-family: var(--hand); font-size: 21px; font-weight: 700; }.monogram span { color: var(--marigold); }.nav-links { display: flex; gap: 35px; font-size: 10px; text-transform: uppercase; letter-spacing: 1.1px; }.nav-links a { position: relative; padding: 9px 0; }.nav-links a::after { content: ''; position: absolute; left: 0; right: 100%; bottom: 2px; height: 1px; background: var(--marigold); transition: right .25s ease; }.nav-links a:hover::after { right: 0; }.nav-date { padding: 12px 16px; border: 1px solid rgba(255,255,255,.28); border-radius: 11px; color: var(--marigold); font-size: 9px; font-weight: 600; letter-spacing: 1px; }
+.hero-content { position: relative; z-index: 3; width: min(100%,980px); text-align: center; }.auspicious { display: flex; align-items: center; justify-content: center; gap: 14px; color: var(--marigold); font-family: var(--hand); font-size: 13px; }.auspicious span { width: 45px; height: 1px; background: linear-gradient(90deg,transparent,var(--marigold)); }.auspicious span:last-child { transform: rotate(180deg); }.auspicious p { margin: 0; }.overline { margin: 24px 0 19px; color: rgba(255,255,255,.63); font-size: 9px; text-transform: uppercase; letter-spacing: 3.5px; }.hero h1 { margin: 0; display: flex; align-items: center; justify-content: center; gap: clamp(18px,4vw,60px); font-family: var(--serif); font-size: clamp(66px,10vw,142px); font-weight: 400; line-height: .9; letter-spacing: -3px; }.hero h1 i { color: var(--marigold); font-family: var(--hand); font-size: .5em; font-weight: 400; }.invitation-line { margin: 26px 0 25px; color: rgba(255,255,255,.7); font-family: var(--hand); font-size: 17px; }.date-medallion { width: fit-content; display: flex; flex-direction: column; align-items: center; margin: 0 auto; padding: 13px 32px; border-top: 1px solid rgba(255,198,90,.5); border-bottom: 1px solid rgba(255,198,90,.5); }.date-medallion span { color: var(--marigold); font-size: 8px; text-transform: uppercase; letter-spacing: 3px; }.date-medallion strong { margin: 3px 0; font-family: var(--serif); font-size: 28px; font-weight: 400; letter-spacing: 4px; }.date-medallion small { color: rgba(255,255,255,.52); font-size: 8px; text-transform: uppercase; letter-spacing: 1.2px; }.scroll-hint { position: absolute; left: 50%; bottom: -100px; display: flex; flex-direction: column; align-items: center; gap: 9px; color: rgba(255,255,255,.45); font-size: 7px; text-transform: uppercase; letter-spacing: 1.4px; transform: translateX(-50%); }.scroll-hint i { width: 28px; height: 28px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.2); border-radius: 50%; font-style: normal; animation: drop 1.8s infinite; }
+.mandala { position: absolute; width: 420px; aspect-ratio: 1; border: 1px solid rgba(255,198,90,.09); border-radius: 50%; }.mandala::before,.mandala::after { content: ''; position: absolute; inset: 13%; border: 1px dashed rgba(255,198,90,.11); border-radius: 50%; }.mandala::after { inset: 28%; border-style: solid; box-shadow: 0 0 0 25px rgba(255,255,255,.01); }.mandala-left { left: -250px; bottom: -120px; animation: spin 45s linear infinite; }.mandala-right { right: -250px; top: -100px; animation: spin 55s reverse linear infinite; }.flower-corner { position: absolute; color: rgba(255,198,90,.18); font-size: 140px; line-height: 1; }.flower-one { left: 5%; top: 23%; transform: rotate(12deg); }.flower-two { right: 7%; bottom: 17%; transform: rotate(45deg); }
+.reveal { animation: rise .72s cubic-bezier(.2,.8,.2,1) both; }.delay-1 { animation-delay: .03s; }.delay-2 { animation-delay: .06s; }.delay-3 { animation-delay: .09s; }.delay-4 { animation-delay: .12s; }
+
+.blessing-strip { min-height: 88px; display: flex; align-items: center; justify-content: center; gap: 25px; padding: 20px; color: var(--wine); background: var(--marigold); }.blessing-strip span { font-family: var(--hand); font-size: 16px; font-weight: 700; }.blessing-strip i { width: 50px; height: 1px; background: rgba(120,19,51,.35); }.blessing-strip p { margin: 0; font-size: 9px; text-transform: uppercase; letter-spacing: 2px; }
+.couple-section { position: relative; overflow: hidden; background: var(--ivory); }.section-flower { position: absolute; right: -80px; top: -60px; color: rgba(183,39,63,.045); font-size: 390px; line-height: 1; }.section-heading { position: relative; z-index: 2; margin-bottom: 70px; text-align: center; }.eyebrow { margin: 0 0 16px; color: var(--red); font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: 2.8px; }.section-heading h2,.venue-copy h2,.countdown-copy h2 { margin: 0; font-family: var(--serif); font-size: clamp(47px,6vw,75px); font-weight: 400; line-height: 1; }.section-heading h2 em,.venue-copy h2 em,.countdown-copy h2 em { color: var(--red); font-weight: 400; }
+.couple-grid { max-width: 1100px; margin: auto; display: grid; grid-template-columns: 1fr 115px 1fr; align-items: center; gap: 25px; }.person-card { min-width: 0; position: relative; padding: 18px 18px 31px; border: 1px solid rgba(120,19,51,.11); border-radius: 220px 220px 24px 24px; background: rgba(255,255,255,.58); box-shadow: 0 30px 80px rgba(96,24,46,.09); transition: transform .35s ease, box-shadow .35s ease; }.person-card:hover { transform: translateY(-9px); box-shadow: 0 38px 90px rgba(96,24,46,.14); }.card-number { position: absolute; z-index: 2; top: 35px; right: 36px; width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.5); border-radius: 50%; color: white; background: rgba(74,10,32,.28); backdrop-filter: blur(8px); font-family: var(--serif); font-size: 11px; }.portrait { height: 420px; display: grid; place-items: center; overflow: hidden; border-radius: 200px 200px 15px 15px; color: rgba(255,255,255,.72); background: radial-gradient(circle at 50% 25%,rgba(255,255,255,.25),transparent 25%), linear-gradient(145deg,#d17f62,#87203c); }.portrait-bride { background: radial-gradient(circle at 50% 25%,rgba(255,255,255,.25),transparent 25%), linear-gradient(145deg,#ecaa62,#a32747); }.portrait::before { content: '❉'; position: absolute; color: rgba(255,255,255,.1); font-size: 190px; }.portrait span { position: relative; padding: 14px 18px; border: 1px solid rgba(255,255,255,.25); border-radius: 10px; background: rgba(67,9,31,.12); backdrop-filter: blur(7px); text-align: center; font-size: 8px; text-transform: uppercase; letter-spacing: 1.3px; line-height: 1.6; }.person-copy { padding: 27px 20px 0; text-align: center; }.relation { margin: 0 0 6px!important; color: var(--red)!important; font-size: 8px!important; text-transform: uppercase; letter-spacing: 2px; }.person-copy h3 { margin: 0 0 13px; color: var(--wine); font-family: var(--serif); font-size: 43px; font-weight: 400; }.person-copy p { margin: 0 0 6px; color: #8a6972; font-size: 10px; }.person-copy strong { font-family: var(--serif); font-size: 17px; font-weight: 400; line-height: 1.45; }.person-copy address { margin-top: 16px; color: #896d74; font-size: 9px; font-style: normal; line-height: 1.7; }.union-mark { display: flex; flex-direction: column; align-items: center; text-align: center; }.union-mark span { color: var(--red); font-family: var(--hand); font-size: 14px; }.union-mark b { margin: 3px 0; color: var(--wine); font-family: var(--serif); font-size: 62px; font-weight: 400; }.union-mark small { color: #a17f87; font-size: 7px; text-transform: uppercase; letter-spacing: 1.6px; }
+
+.quote-section { min-height: 400px; position: relative; overflow: hidden; display: grid; place-items: center; padding: 80px 24px; color: white; background: var(--green); text-align: center; }.quote-pattern { position: absolute; inset: -160px; opacity: .08; background: repeating-radial-gradient(circle at 50% 50%,transparent 0 35px,#fff 36px 37px,transparent 38px 70px); }.quote-inner { position: relative; }.quote-symbol { color: var(--marigold); font-family: var(--serif); font-size: 55px; line-height: .6; }.quote-inner blockquote { margin: 17px 0 25px; font-family: var(--serif); font-size: clamp(31px,4.4vw,54px); line-height: 1.2; }.quote-inner p { margin: 0; color: rgba(255,255,255,.55); font-family: var(--hand); font-size: 13px; }
+
+.events-section { overflow: hidden; color: white; background: linear-gradient(145deg,#650e2b,#3c071d); }.section-heading.light .eyebrow { color: var(--marigold); }.section-heading.light h2 em { color: var(--rose); }.heading-copy { max-width: 510px; margin: 22px auto 0; color: rgba(255,255,255,.55); font-size: 11px; line-height: 1.8; }.events-slider { max-width: 1160px; margin: auto; display: grid; grid-template-columns: repeat(3,1fr); gap: 17px; }.event-day { min-height: 475px; position: relative; padding: 35px 30px; border: 1px solid rgba(255,255,255,.11); border-radius: 25px; background: rgba(255,255,255,.05); backdrop-filter: blur(12px); transition: transform .3s ease, background .3s ease; }.event-day:hover { transform: translateY(-8px); background: rgba(255,255,255,.09); }.featured-day { color: var(--ink); background: linear-gradient(145deg,#ffd276,#f0a340); }.featured-day:hover { background: linear-gradient(145deg,#ffdb8c,#f0a340); }.featured-label { position: absolute; right: 25px; top: 24px; padding: 7px 10px; border-radius: 99px; color: white; background: var(--wine); font-size: 7px; text-transform: uppercase; letter-spacing: 1.1px; }.event-date { padding-bottom: 25px; border-bottom: 1px solid rgba(255,255,255,.14); }.featured-day .event-date { border-color: rgba(61,23,35,.13); }.event-date span,.event-date strong,.event-date small { display: block; }.event-date span { color: var(--rose); font-family: var(--hand); font-size: 13px; }.featured-day .event-date span { color: var(--wine); }.event-date strong { margin: 4px 0 -2px; font-family: var(--serif); font-size: 69px; font-weight: 400; line-height: 1; }.event-date small { color: rgba(255,255,255,.45); font-size: 8px; text-transform: uppercase; letter-spacing: 1.5px; }.featured-day .event-date small { color: rgba(61,23,35,.55); }.event-list { display: grid; gap: 8px; padding-top: 20px; }.event-list > div { display: grid; grid-template-columns: 36px 1fr; align-items: center; gap: 11px; padding: 11px 0; }.event-list i { width: 35px; height: 35px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.15); border-radius: 50%; color: var(--marigold); font-family: var(--hand); font-style: normal; }.featured-day .event-list i { border-color: rgba(61,23,35,.13); color: var(--wine); background: rgba(255,255,255,.18); }.event-list p,.event-list b,.event-list span { display: block; margin: 0; }.event-list b { font-family: var(--serif); font-size: 16px; font-weight: 400; }.event-list span { margin-top: 4px; color: rgba(255,255,255,.45); font-size: 8px; text-transform: uppercase; letter-spacing: 1px; }.featured-day .event-list span { color: rgba(61,23,35,.55); }.slider-dots { display: none; }
+
+.countdown-section { min-height: 370px; display: grid; grid-template-columns: .75fr 1.25fr; align-items: center; gap: 80px; padding: 75px max(24px,calc((100vw - 1100px)/2)); background: linear-gradient(120deg,#f6dba5,#fff1d2); }.countdown-copy h2 { font-size: clamp(43px,5vw,64px); }.countdown { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr; align-items: center; padding: 35px 25px; border-color: rgba(120,19,51,.12); border-radius: 22px; background: rgba(255,255,255,.38); box-shadow: 0 20px 60px rgba(107,53,22,.1); }.countdown > div { text-align: center; }.countdown strong,.countdown span { display: block; }.countdown strong { color: var(--wine); font-family: var(--serif); font-size: clamp(30px,4vw,49px); font-weight: 400; }.countdown span { margin-top: 5px; color: #92716d; font-size: 7px; text-transform: uppercase; letter-spacing: 1.3px; }.countdown i { color: rgba(120,19,51,.25); font-family: var(--serif); font-size: 24px; font-style: normal; }
+
+.venue-section { background: var(--ivory); }.venue-grid { max-width: 1100px; margin: auto; display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 85px; }.map-placeholder { height: 560px; position: relative; overflow: hidden; border-radius: 28px; background: #edcda7; box-shadow: 0 25px 70px rgba(91,31,48,.12); }.venue-map { width: 100%; height: 100%; display: block; border: 0; pointer-events: none; }.map-label { position: absolute; right: 18px; bottom: 18px; left: 18px; padding: 18px 21px; border-color: rgba(255,255,255,.7); border-radius: 15px; color: var(--ink); background: rgba(255,248,234,.86); }.map-label small,.map-label strong,.map-label span { display: block; }.map-label small { color: var(--red); font-size: 7px; text-transform: uppercase; letter-spacing: 1.3px; }.map-label strong { margin: 5px 0; font-family: var(--serif); font-size: 19px; font-weight: 400; }.map-label span { color: #8e7075; font-size: 9px; }.venue-copy > p:not(.eyebrow) { margin: 24px 0; color: #876b73; font-size: 12px; line-height: 1.8; }.venue-details { display: grid; grid-template-columns: 75px 1fr; gap: 12px 18px; margin: 29px 0; padding: 23px 0; border-top: 1px solid rgba(120,19,51,.12); border-bottom: 1px solid rgba(120,19,51,.12); }.venue-details span { color: var(--red); font-size: 8px; text-transform: uppercase; letter-spacing: 1px; }.venue-details strong { font-family: var(--serif); font-size: 15px; font-weight: 400; }.map-button { min-height: 49px; display: inline-flex; align-items: center; gap: 20px; padding: 0 20px; border-radius: 12px; color: white; background: var(--wine); font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: .7px; transition: transform .25s ease,box-shadow .25s ease; }.map-button:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(120,19,51,.2); }.map-button span { font-size: 16px; }
+.map-click-target { position: absolute; z-index: 1; inset: 0; cursor: pointer; }.map-click-target:focus-visible { outline: 4px solid var(--marigold); outline-offset: -6px; border-radius: 28px; }.map-label { z-index: 2; pointer-events: none; }
+
+.closing-section { min-height: 570px; position: relative; overflow: hidden; display: grid; place-items: center; padding: 80px 24px; color: white; background: radial-gradient(circle,#9c2942,#650e2b 55%,#3c071d); text-align: center; }.closing-mandala { position: absolute; width: 480px; aspect-ratio: 1; border: 1px solid rgba(255,198,90,.12); border-radius: 50%; box-shadow: 0 0 0 48px rgba(255,255,255,.017),0 0 0 96px rgba(255,255,255,.012),inset 0 0 0 70px rgba(255,198,90,.025); animation: spin 55s linear infinite; }.closing-content { position: relative; }.closing-content > p { margin: 0 0 20px; color: var(--marigold); font-family: var(--hand); font-size: 15px; }.closing-content h2 { margin: 0; font-family: var(--serif); font-size: clamp(57px,9vw,104px); font-weight: 400; }.closing-content h2 i { color: var(--marigold); font-family: var(--hand); font-size: .55em; }.closing-content > span { display: block; margin-top: 18px; color: rgba(255,255,255,.55); font-size: 9px; text-transform: uppercase; letter-spacing: 2.2px; }.closing-symbol { margin-top: 28px; color: var(--marigold); font-size: 29px; }
+footer { min-height: 68px; display: flex; align-items: center; justify-content: space-between; padding: 15px max(24px,calc((100vw - 1160px)/2)); color: rgba(255,255,255,.55); background: #2d0615; font-size: 8px; text-transform: uppercase; letter-spacing: 1.2px; }
+
+.portrait { position: relative; }.portrait::before { inset: 0; display: grid; place-items: center; }.portrait span { z-index: 1; }
+.reveal-on-scroll { opacity: 0; transform: translateY(28px); transition: opacity .8s ease,transform .8s cubic-bezier(.2,.8,.2,1); }.reveal-on-scroll.visible { opacity: 1; transform: translateY(0); }
+.petal-trail { position: fixed; z-index: 100; inset: 0; pointer-events: none; overflow: hidden; }.petal { position: fixed; left: 0; top: 0; width: 10px; height: 15px; border-radius: 80% 10% 80% 10%; background: linear-gradient(145deg,var(--marigold),var(--rose)); box-shadow: 0 3px 8px rgba(89,17,43,.18); transform: translate(-50%,-50%) rotate(var(--rotation)); animation: petalFade 1.15s ease-out forwards; }
+
+@keyframes rise { from { opacity: .28; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes breathe { 50% { transform: translate(-50%,-50%) scale(1.04); opacity: .85; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes drop { 50% { transform: translateY(5px); } }
+@keyframes pin { 50% { transform: translate(-50%,-57%) rotate(-45deg); } }
+@keyframes petalFade { 0% { opacity: .9; } 100% { opacity: 0; transform: translate(calc(-50% + var(--drift-x)),calc(-50% + 45px)) rotate(calc(var(--rotation) + 150deg)) scale(.35); } }
+
+@media (max-width: 850px) {
+  .nav-links { display: none; }.couple-grid { grid-template-columns: 1fr; gap: 38px; }.union-mark { padding: 5px 0; }.union-mark b { font-size: 48px; }.person-card { width: min(100%,500px); margin: auto; }.events-slider { display: flex; overflow-x: auto; margin-inline: -24px; padding: 4px 24px 25px; scroll-snap-type: x mandatory; scrollbar-width: none; }.events-slider::-webkit-scrollbar { display: none; }.event-day { flex: 0 0 min(84vw,370px); scroll-snap-align: center; }.slider-dots { display: flex; justify-content: center; gap: 6px; margin-top: 20px; }.slider-dots span { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,.25); }.slider-dots span.active { width: 19px; border-radius: 99px; background: var(--marigold); }.countdown-section { grid-template-columns: 1fr; gap: 40px; text-align: center; }.venue-grid { grid-template-columns: 1fr; gap: 55px; }.map-placeholder { height: 470px; }
+}
+
+@media (max-width: 560px) {
+  .section { padding: 85px 17px; }.nav { top: 12px; width: calc(100% - 24px); min-height: 58px; padding-left: 14px; }.nav-date { padding: 10px; font-size: 7px; }.hero { min-height: 820px; padding-inline: 15px; }.hero h1 { flex-direction: column; gap: 4px; font-size: clamp(69px,22vw,98px); }.hero h1 i { line-height: .75; }.overline { margin-top: 20px; }.invitation-line { margin-block: 22px; font-size: 14px; }.scroll-hint { bottom: -85px; }.flower-corner { display: none; }.blessing-strip { gap: 10px; }.blessing-strip i { width: 18px; }.blessing-strip p { font-size: 7px; letter-spacing: 1px; text-align: center; }.section-heading { margin-bottom: 48px; }.portrait { height: 380px; }.person-card { padding: 13px 13px 28px; }.person-copy { padding-inline: 10px; }.quote-section { min-height: 370px; }.events-section .section-heading { padding-inline: 7px; }.event-day { min-height: 455px; }.countdown-section { padding: 70px 15px; }.countdown { padding: 27px 10px; }.countdown strong { font-size: 29px; }.countdown i { font-size: 16px; }.map-placeholder { height: 410px; border-radius: 21px; }.map-label { padding: 15px; }.venue-copy { text-align: center; }.venue-details { text-align: left; }.closing-section { min-height: 500px; }footer { flex-direction: column; justify-content: center; gap: 10px; text-align: center; }
+}
+
+/* Compact, high-contrast invitation treatment */
+.section { padding-block: clamp(76px,8vw,96px); }
+.hero { min-height: min(780px,100svh); padding-top: 105px; }
+.hero h1 { font-weight: 600; text-shadow: 0 7px 32px rgba(47,4,22,.2); }
+.monogram,.auspicious { font-family: var(--hand); }.nav-links { color: rgba(255,255,255,.9); font-weight: 600; }.overline { color: rgba(255,255,255,.82); font-weight: 600; }.invitation-line { color: rgba(255,255,255,.9); font-family: var(--serif); font-size: 19px; font-weight: 600; font-style: italic; }.date-medallion small { color: rgba(255,255,255,.78); }.scroll-hint { bottom: -72px; color: rgba(255,255,255,.7); }
+.section-heading { margin-bottom: 50px; }.section-heading h2,.venue-copy h2,.countdown-copy h2 { font-weight: 600; }.eyebrow { font-weight: 700; }.portrait { height: clamp(310px,31vw,355px); }.person-card { padding-bottom: 25px; }.person-copy { padding-top: 20px; }.person-copy h3 { margin-bottom: 8px; font-weight: 600; }.person-copy p,.person-copy address { color: #694d56; }.person-copy strong { font-weight: 600; }
+.quote-section { min-height: 310px; padding-block: 58px; background: radial-gradient(circle at 50% 50%,#35765f,#1a5844 58%,#124534); }.quote-pattern { opacity: .055; }.quote-kicker { color: var(--marigold); font-size: 8px; font-weight: 700; text-transform: uppercase; letter-spacing: 3px; }.quote-inner blockquote { margin: 12px 0; font-weight: 600; line-height: .95; }.quote-inner blockquote em { color: #ffd06b; font-weight: 600; }.quote-divider { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 22px auto 14px; }.quote-divider i { width: 55px; height: 1px; background: rgba(255,208,107,.5); }.quote-divider b { color: var(--marigold); font-size: 18px; }.quote-inner p { color: rgba(255,255,255,.82); font-family: var(--sans); font-size: 9px; letter-spacing: .7px; }
+.events-section { padding-block: 88px; }.event-day { min-height: 410px; padding: 28px 27px; }.event-date { padding-bottom: 19px; }.event-date strong { font-size: 61px; font-weight: 600; }.event-date small,.event-list span { color: rgba(255,255,255,.7); }.event-list { gap: 2px; padding-top: 15px; }.event-list > div { padding: 8px 0; }.event-list b { font-weight: 600; }.heading-copy { color: rgba(255,255,255,.72); }
+.countdown-section { min-height: 300px; padding-block: 58px; }.countdown { padding-block: 27px; }.venue-grid { gap: 70px; }.map-placeholder { height: 430px; }.venue-copy > p:not(.eyebrow),.map-label span { color: #694d56; }.closing-section { min-height: 410px; padding-block: 60px; }.closing-content h2 { font-weight: 600; }.closing-content > span { color: rgba(255,255,255,.75); }
+.firework-trail { position: fixed; z-index: 100; inset: 0; width: 100%; height: 100%; contain: strict; pointer-events: none; transform: translateZ(0); }
+.leaf-symbols { position: absolute; width: 0; height: 0; overflow: hidden; }.mobile-page-leaves { display: none; }
+
+@media (max-width: 560px) {
+  .hero { min-height: 750px; }.hero h1 { font-size: clamp(62px,20vw,88px); }.invitation-line { font-size: 16px; }.date-medallion { padding-inline: 20px; }.portrait { height: 315px; }.quote-section { min-height: 285px; padding: 50px 18px; }.quote-inner blockquote { font-size: 37px; }.events-section { padding-block: 75px; }.event-day { min-height: 400px; }.countdown-section { padding-block: 55px; }.map-placeholder { height: 350px; }.closing-section { min-height: 370px; }
+}
+
+/* Photo-free compact layout and alternative navigation */
+.floating-nav { position: fixed; z-index: 90; right: 18px; top: 50%; display: flex; flex-direction: column; gap: 5px; padding: 7px; border-color: rgba(255,255,255,.22); border-radius: 18px; background: rgba(66,7,29,.78); transform: translateY(-50%); }
+.floating-nav a { width: 46px; min-height: 45px; position: relative; display: grid; place-items: center; border-radius: 12px; color: rgba(255,255,255,.66); transition: color .25s ease,background .25s ease,transform .25s ease; }.floating-nav a:hover,.floating-nav a.active { color: #481024; background: var(--marigold); transform: scale(1.06); }.floating-nav a span { font-size: 18px; line-height: 1; }.floating-nav a b { position: absolute; right: 57px; padding: 7px 10px; border-radius: 8px; color: white; background: rgba(61,7,28,.9); opacity: 0; pointer-events: none; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .8px; transform: translateX(7px); transition: opacity .2s ease,transform .2s ease; }.floating-nav a:hover b { opacity: 1; transform: translateX(0); }
+.section { padding-block: clamp(62px,6.5vw,78px); }.hero { min-height: 680px; padding: 72px 24px 42px; }.hero h1 { font-size: clamp(72px,9vw,126px); }.invitation-line { margin-block: 18px; font-size: 21px; }.overline { margin: 15px 0 12px; font-size: 11px; }.auspicious { font-size: 15px; }.date-medallion { padding-block: 10px; }.date-medallion span,.date-medallion small { font-size: 10px; }.date-medallion strong { font-size: 31px; }.scroll-hint { bottom: -52px; font-size: 9px; }
+.blessing-strip { min-height: 70px; }.blessing-strip p { font-size: 11px; font-weight: 600; }.blessing-strip span { font-size: 18px; }.section-heading { margin-bottom: 37px; }.eyebrow { font-size: 11px; }.section-heading h2,.venue-copy h2,.countdown-copy h2 { font-size: clamp(51px,5.6vw,70px); }
+.couple-grid { grid-template-columns: 1fr 95px 1fr; max-width: 1000px; gap: 20px; }.person-card { min-height: 335px; display: flex; flex-direction: column; justify-content: center; padding: 27px 35px; border-radius: 28px; background: linear-gradient(145deg,rgba(255,255,255,.8),rgba(250,228,191,.5)); }.bride-card { background: linear-gradient(145deg,rgba(255,255,255,.82),rgba(246,213,208,.55)); }.card-number { top: 18px; right: 18px; color: var(--wine); border-color: rgba(120,19,51,.13); background: rgba(255,255,255,.45); }.person-ornament { display: flex; flex-direction: column; align-items: center; margin-bottom: 4px; color: var(--saffron); }.person-ornament span { font-size: 35px; line-height: 1; }.person-ornament i { width: 48px; height: 1px; margin-top: 8px; background: linear-gradient(90deg,transparent,var(--saffron),transparent); }.bride-ornament { color: var(--red); }.person-copy { padding: 10px 0 0; }.person-copy h3 { font-size: 49px; }.relation { font-size: 10px!important; }.person-copy p { font-size: 13px; }.person-copy strong { font-size: 21px; line-height: 1.38; }.person-copy address { margin-top: 13px; font-size: 12px; line-height: 1.65; }.union-mark span { font-size: 16px; }.union-mark small { font-size: 9px; }
+.quote-section { min-height: 260px; padding-block: 42px; }.quote-inner blockquote { font-size: clamp(39px,4.5vw,57px); }.quote-inner p { font-size: 11px; }.events-section { padding-block: 68px; }.heading-copy { font-size: 13px; }.event-day { min-height: 365px; padding: 23px 25px; }.event-date strong { font-size: 53px; }.event-date span { font-size: 16px; }.event-date small { font-size: 10px; }.event-list b { font-size: 19px; }.event-list span { font-size: 10px; }.event-list i { font-size: 17px; }.countdown-section { min-height: 260px; padding-block: 43px; }.countdown span { font-size: 9px; }.map-placeholder { height: 365px; }.map-label small,.venue-details span { font-size: 9px; }.map-label strong { font-size: 22px; }.map-label span,.venue-copy > p:not(.eyebrow) { font-size: 13px; }.venue-details strong { font-size: 18px; }.map-button { font-size: 10px; }.closing-section { min-height: 340px; padding-block: 45px; }.closing-content > p { font-size: 17px; }.closing-content > span { font-size: 11px; }
+
+@media (max-width: 850px) {
+  .glass,.event-day,.floating-nav { -webkit-backdrop-filter: none; backdrop-filter: none; }.floating-nav { top: auto; right: 50%; bottom: 12px; flex-direction: row; border-radius: 16px; background: rgba(66,7,29,.96); box-shadow: 0 8px 24px rgba(51,4,24,.22); transform: translateX(50%); }.floating-nav a { width: 48px; min-height: 43px; }.floating-nav a b { display: none; }.couple-grid { grid-template-columns: 1fr; max-width: 560px; }.person-card { width: 100%; min-height: 300px; }.event-day { min-height: 365px; }.sun-disc,.mandala,.closing-mandala,.map-pin,.scroll-hint i { animation: none; }.reveal-on-scroll { transition-duration: .48s; }.person-card,.event-day { box-shadow: 0 12px 32px rgba(76,16,35,.08); }
+}
+
+@media (hover: none) {
+  .person-card:hover,.event-day:hover { transform: none; }.event-day:hover { background: rgba(255,255,255,.05); }.featured-day:hover { background: linear-gradient(145deg,#ffd276,#f0a340); }
+}
+
+@media (max-width: 560px) {
+  .section { padding-block: 56px; }.hero { min-height: 680px; padding-top: 55px; }.hero h1 { font-size: clamp(65px,20vw,86px); }.invitation-line { font-size: 18px; }.blessing-strip p { font-size: 9px; }.section-heading { margin-bottom: 30px; }.person-card { min-height: 285px; padding: 24px 20px; }.person-copy h3 { font-size: 45px; }.person-copy strong { font-size: 19px; }.person-copy address { font-size: 12px; }.quote-section { min-height: 245px; }.quote-inner blockquote { font-size: 40px; }.events-section { padding-block: 58px; }.event-day { min-height: 355px; }.countdown-section { padding-block: 43px; }.map-placeholder { height: 315px; }.closing-section { min-height: 310px; }.closing-content h2 { font-size: 53px; }
+}
+
+/* Mobile performance mode: preserve content and remove scroll-blocking paint work. */
+@media (max-width: 850px) {
+  html { scroll-behavior: auto; }.noise,.quote-pattern { display: none!important; }.reveal-on-scroll,.reveal-on-scroll.visible { opacity: 1; transform: none; transition: none; }.glass,.event-day,.floating-nav,.map-label,.card-number { -webkit-backdrop-filter: none!important; backdrop-filter: none!important; }.sun-disc,.mandala,.closing-mandala,.map-pin,.scroll-hint i { animation: none!important; }.events-slider { width: min(100%,560px); display: grid; grid-template-columns: 1fr; gap: 14px; overflow: visible; margin: 0 auto; padding: 0; scroll-snap-type: none; touch-action: pan-y; }.event-day { width: 100%; min-height: 0; flex: none; scroll-snap-align: none; box-shadow: none; }.slider-dots { display: none; }.person-card,.countdown,.map-placeholder { box-shadow: 0 8px 22px rgba(76,16,35,.07); }.flower-corner { display: none; }
+  .mobile-botanicals { position: absolute; z-index: 1; inset: 0; display: block; overflow: hidden; contain: layout paint; pointer-events: none; }.mobile-botanicals span { --duration: 9s; position: absolute; width: 18px; height: 27px; left: 7%; top: 18%; border-radius: 100% 0 100% 0; background: linear-gradient(145deg,rgba(255,209,102,.72),rgba(240,146,56,.38)); opacity: .34; animation: botanicalDrift var(--duration) ease-in-out infinite alternate; animation-play-state: paused; }.mobile-botanicals.is-active span { animation-play-state: running; }.mobile-botanicals span:nth-child(2) { --duration: 11s; left: 82%; top: 13%; width: 14px; height: 23px; transform: rotate(45deg); }.mobile-botanicals span:nth-child(3) { --duration: 8s; left: 87%; top: 67%; width: 12px; height: 12px; border-radius: 50%; background: #ffc857; box-shadow: 7px 0 rgba(255,200,87,.55),-7px 0 rgba(255,200,87,.55),0 7px rgba(255,200,87,.55),0 -7px rgba(255,200,87,.55); }.mobile-botanicals span:nth-child(4) { --duration: 12s; left: 13%; top: 72%; width: 13px; height: 21px; transform: rotate(-32deg); }.mobile-botanicals span:nth-child(5) { --duration: 10s; left: 67%; top: 38%; width: 10px; height: 17px; opacity: .22; transform: rotate(70deg); }.mobile-botanicals span:nth-child(6) { --duration: 9.5s; left: 28%; top: 48%; width: 9px; height: 9px; border-radius: 50%; background: #ef8894; box-shadow: 6px 0 rgba(239,136,148,.55),-6px 0 rgba(239,136,148,.55),0 6px rgba(239,136,148,.55),0 -6px rgba(239,136,148,.55); }.botanicals-warm span { opacity: .23; background: linear-gradient(145deg,#ffc65a,#ef8894); }.botanicals-closing span { opacity: .28; }.hero-content,.events-section > .section-heading,.events-slider,.slider-dots,.closing-content { position: relative; z-index: 2; }
+  .mobile-page-leaves { position: fixed; z-index: 40; inset: 0; display: block; overflow: hidden; contain: strict; pointer-events: none; }.page-leaf { position: absolute; top: -15vh; width: 38px; height: 42px; opacity: .2; animation: pageLeafFall 19s linear infinite; }.page-leaf.maple { color: #e79a43; }.page-leaf.garden { color: #62936b; }.leaf-one { left: 6%; width: 43px; height: 47px; animation-duration: 18s; animation-delay: -3s; opacity: .22; }.leaf-two { left: 24%; width: 31px; height: 36px; animation-duration: 23s; animation-delay: -15s; opacity: .19; }.leaf-three { left: 44%; width: 35px; height: 39px; color: #ce5a4d!important; animation-duration: 21s; animation-delay: -8s; opacity: .17; }.leaf-four { left: 67%; width: 29px; height: 34px; color: #d5a843!important; animation-duration: 25s; animation-delay: -19s; opacity: .17; }.leaf-five { left: 85%; width: 47px; height: 51px; color: #e9b753!important; animation-duration: 20s; animation-delay: -11s; opacity: .2; }.leaf-six { left: 54%; width: 25px; height: 31px; color: #4f8663!important; animation-duration: 27s; animation-delay: -23s; opacity: .2; }.leaf-seven { left: 14%; width: 30px; height: 34px; color: #b94a5d!important; animation-duration: 24s; animation-delay: -17s; opacity: .15; }
+}
+
+@keyframes botanicalDrift {
+  0% { transform: translate3d(0,0,0) rotate(-12deg); }
+  50% { transform: translate3d(13px,-17px,0) rotate(18deg); }
+  100% { transform: translate3d(-8px,14px,0) rotate(42deg); }
+}
+
+@keyframes pageLeafFall {
+  0% { transform: translate3d(-8px,-12vh,0) rotate(-25deg); }
+  25% { transform: translate3d(15px,25vh,0) rotate(55deg); }
+  50% { transform: translate3d(-12px,55vh,0) rotate(145deg); }
+  75% { transform: translate3d(18px,86vh,0) rotate(235deg); }
+  100% { transform: translate3d(-7px,120vh,0) rotate(330deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,*::before,*::after { scroll-behavior: auto!important; animation-duration: .01ms!important; animation-iteration-count: 1!important; transition-duration: .01ms!important; }.reveal-on-scroll { opacity: 1; transform: none; }.petal-trail,.firework-trail,.mobile-botanicals,.mobile-page-leaves { display: none!important; }
+}
+
+</style>
+</head>
+
+<body>
+  <canvas class="firework-trail" id="fireworkTrail" aria-hidden="true"></canvas>
+  <svg class="leaf-symbols" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="maple-leaf" viewBox="0 0 100 108">
+        <path fill="currentColor"
+          d="M50 2 59 27 75 15 70 40 94 33 79 53 97 61 67 66 72 91 54 75 50 106 46 75 28 91 33 66 3 61 21 53 6 33 30 40 25 15 41 27Z" />
+      </symbol>
+      <symbol id="garden-leaf" viewBox="0 0 100 100">
+        <path fill="currentColor" d="M88 9C49 12 16 32 10 83c35 7 72-20 78-74Z" />
+        <path d="M18 78c19-18 37-35 62-57M39 58l-2-21M55 43l19 2" fill="none" stroke="rgba(255,255,255,.45)"
+          stroke-width="3" stroke-linecap="round" />
+      </symbol>
+    </defs>
+  </svg>
+  <div class="mobile-page-leaves" aria-hidden="true">
+    <svg class="page-leaf maple leaf-one">
+      <use href="#maple-leaf" />
+    </svg>
+    <svg class="page-leaf garden leaf-two">
+      <use href="#garden-leaf" />
+    </svg>
+    <svg class="page-leaf maple leaf-three">
+      <use href="#maple-leaf" />
+    </svg>
+    <svg class="page-leaf garden leaf-four">
+      <use href="#garden-leaf" />
+    </svg>
+    <svg class="page-leaf maple leaf-five">
+      <use href="#maple-leaf" />
+    </svg>
+    <svg class="page-leaf garden leaf-six">
+      <use href="#garden-leaf" />
+    </svg>
+    <svg class="page-leaf maple leaf-seven">
+      <use href="#maple-leaf" />
+    </svg>
+  </div>
+  <nav class="floating-nav glass" aria-label="Invitation sections">
+    <a href="#home" class="active"><span>⌂</span><b>Welcome</b></a>
+    <a href="#couple"><span>♥</span><b>Families</b></a>
+    <a href="#celebrations"><span>✦</span><b>Events</b></a>
+    <a href="#venue"><span>⌖</span><b>Venue</b></a>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="noise"></div>
+    <div class="sun-disc"></div>
+    <div class="mandala mandala-left" aria-hidden="true"></div>
+    <div class="mandala mandala-right" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="auspicious reveal">
+        <span></span>
+        <p>॥ श्री गणेशाय नमः ॥</p><span></span>
+      </div>
+      <p class="overline reveal delay-1">Together with their families</p>
+      <h1 class="reveal delay-2"><span>Shubham</span><i>&</i><span>Sheetal</span></h1>
+      <p class="invitation-line reveal delay-3">joyfully invite you to celebrate their wedding</p>
+      <div class="date-medallion reveal delay-4">
+        <span>November</span><strong>24—26</strong><small>2026 · V.P.O. Rajiana (53 Miles), Kangra, Himachal Pradesh</small>
+      </div>
+      <a class="scroll-hint" href="#couple"><span>Open the invitation</span><i>↓</i></a>
+    </div>
+
+    <div class="flower-corner flower-one" aria-hidden="true">✦</div>
+    <div class="flower-corner flower-two" aria-hidden="true">✦</div>
+  </header>
+
+  <main>
+    <section class="blessing-strip">
+      <span>शुभ</span><i></i>
+      <p>Two souls · Two families · One beautiful beginning</p><i></i><span>विवाह</span>
+    </section>
+
+    <section class="couple-section section" id="couple">
+      <div class="section-flower" aria-hidden="true">❉</div>
+      <div class="section-heading reveal-on-scroll">
+        <p class="eyebrow">The happy couple</p>
+        <h2>Bound by love,<br /><em>blessed by family.</em></h2>
+      </div>
+
+      <div class="couple-grid">
+        <article class="person-card groom-card reveal-on-scroll">
+          <div class="card-number">01</div>
+          <div class="person-ornament" aria-hidden="true"><span>❦</span><i></i></div>
+          <div class="person-copy">
+            <p class="relation">The groom</p>
+            <h3>Shubham</h3>
+            <p>Beloved son of</p>
+            <strong>Late Sh. Anil Kumar<br />& Smt. Anju Devi</strong>
+            <address>V.P.O. Rajiana (53 Miles)<br />Tehsil- Nagrota Bagwan, District Kangra, H.P.</address>
+          </div>
+        </article>
+
+        <div class="union-mark reveal-on-scroll" aria-hidden="true">
+          <span>मिलन</span><b>&</b><small>Forever begins</small>
+        </div>
+
+        <article class="person-card bride-card reveal-on-scroll">
+          <div class="card-number">02</div>
+          <div class="person-ornament bride-ornament" aria-hidden="true"><span>❦</span><i></i></div>
+          <div class="person-copy">
+            <p class="relation">The bride</p>
+            <h3>Sheetal</h3>
+            <p>Beloved daughter of</p>
+            <strong>Sh. Ashwani Kumar Dhiman<br />& Smt. Sunita Devi</strong>
+            <address>V.P.O. Katholi<br />Tehsil - Jawali, District Kangra, H.P.</address>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-pattern"></div>
+      <div class="quote-inner reveal-on-scroll">
+        <span class="quote-kicker">A sacred beginning</span>
+        <blockquote>When two souls<br /><em>become one.</em></blockquote>
+        <div class="quote-divider"><i></i><b>❦</b><i></i></div>
+        <p>Every moment becomes a celebration — with the blessings of our elders.</p>
+      </div>
+    </section>
+
+    <section class="events-section section" id="celebrations">
+      <div class="section-heading light reveal-on-scroll">
+        <p class="eyebrow">Three days of joy</p>
+        <h2>Come celebrate<br /><em>with us.</em></h2>
+        <p class="heading-copy">Your presence will make every ritual warmer, every song brighter and every memory more
+          precious.</p>
+      </div>
+
+      <div class="events-slider" id="eventSlider">
+        <article class="event-day reveal-on-scroll">
+          <div class="event-date"><span>Tuesday</span><strong>24</strong><small>November 2026</small></div>
+          <div class="event-list">
+            <div><i>♫</i>
+              <p><b>Ladies Sangeet</b><span>6:15 PM</span></p>
+            </div>
+          </div>
+        </article>
+
+        <article class="event-day featured-day reveal-on-scroll">
+          <div class="featured-label">Barat day</div>
+          <div class="event-date"><span>Wednesday</span><strong>25</strong><small>November 2026</small></div>
+          <div class="event-list">
+            <div><i>❋</i>
+              <p><b>Samuhat</b><span>9:05 AM</span></p>
+            </div>
+            <div><i>ॐ</i>
+              <p><b>Shanti Havan</b><span>11:10 AM</span></p>
+            </div>
+            <div><i>♛</i>
+              <p><b>Sehra Bandi</b><span>2:15 PM</span></p>
+            </div>
+            <div><i>♞</i>
+              <p><b>Departure of Barat</b><span>5:05 PM</span></p>
+            </div>
+          </div>
+        </article>
+
+        <article class="event-day reveal-on-scroll">
+          <div class="event-date"><span>Thursday</span><strong>26</strong><small>November 2026</small></div>
+          <div class="event-list">
+            <div><i>⌂</i>
+              <p><b>Vadhu Pravesh</b><span>11:15 AM</span></p>
+            </div>
+            <div><i>❦</i>
+              <p><b>Dham</b><span>11:30 AM – 6:00 PM</span></p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="slider-dots" aria-hidden="true"><span class="active"></span><span></span><span></span></div>
+    </section>
+
+    <section class="countdown-section">
+      <div class="countdown-copy reveal-on-scroll">
+        <p class="eyebrow">Counting every heartbeat</p>
+        <h2>Until we say<br /><em>“I do.”</em></h2>
+      </div>
+      <div class="countdown glass reveal-on-scroll" id="countdown" aria-label="Countdown to the wedding">
+        <div><strong id="days">000</strong><span>Days</span></div>
+        <i>:</i>
+        <div><strong id="hours">00</strong><span>Hours</span></div>
+        <i>:</i>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <i>:</i>
+        <div><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="venue-section section" id="venue">
+      <div class="venue-grid">
+        <div class="map-placeholder reveal-on-scroll">
+          <iframe class="venue-map" title="Wedding venue on Google Maps"
+            src="https://www.google.com/maps?q=32.10162008584951,76.32520150342997&amp;z=18&amp;output=embed" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a class="map-click-target" href="https://maps.app.goo.gl/d45VL9Xe2cv4hbtN9" target="_blank"
+            rel="noopener noreferrer" aria-label="Open the wedding venue in Google Maps"></a>
+          <div class="map-label glass"><small>Wedding venue</small><strong>Shubham & Sheetal’s Wedding
+              Venue</strong><span>V.P.O. Rajiana (53 Miles), Kangra, Himachal Pradesh</span></div>
+        </div>
+        <div class="venue-copy reveal-on-scroll">
+          <p class="eyebrow">Find your way to us</p>
+          <h2>Celebrate in the<br /><em>lap of Dhualadhar Mountains.</em></h2>
+          <div class="venue-details">
+            <span>Venue</span><strong>Wedding Venue</strong>
+            <span>Location</span><strong>V.P.O. Rajiana (53 Miles), <br />Tehsil Nagrota Bagwan, District Kangra, H.P.</strong>
+          </div>
+          <a class="map-button" href="https://maps.app.goo.gl/d45VL9Xe2cv4hbtN9" target="_blank"
+            rel="noopener noreferrer">Open directions in Google Maps <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-section">
+      <div class="closing-mandala"></div>
+      <div class="closing-content reveal-on-scroll">
+        <p>We cannot wait to celebrate with you</p>
+        <h2>Shubham <i>&</i> Sheetal</h2>
+        <span>24—26 November 2026</span>
+        <div class="closing-symbol">❦</div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>With love from both families</span><a href="#home">Back to top ↑</a></footer>
+  <script>
+const coarsePointer = window.matchMedia('(pointer: coarse)').matches
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+const revealItems = document.querySelectorAll('.reveal-on-scroll')
+if (coarsePointer) {
+  revealItems.forEach((item) => item.classList.add('visible'))
+} else {
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible')
+        revealObserver.unobserve(entry.target)
+      }
+    })
+  }, { threshold: 0.12 })
+  revealItems.forEach((item) => revealObserver.observe(item))
+}
+
+// Countdown to the first event: Ladies Sangeet, 24 Nov 2026, 6:15 PM IST
+const weddingDate = new Date('2026-11-24T18:15:00+05:30').getTime()
+const countdownElements = {
+  days: document.getElementById('days'),
+  hours: document.getElementById('hours'),
+  minutes: document.getElementById('minutes'),
+  seconds: document.getElementById('seconds'),
+}
+
+function updateCountdown() {
+  const difference = Math.max(0, weddingDate - Date.now())
+  const day = 1000 * 60 * 60 * 24
+  countdownElements.days.textContent = String(Math.floor(difference / day)).padStart(3, '0')
+  countdownElements.hours.textContent = String(Math.floor((difference % day) / (1000 * 60 * 60))).padStart(2, '0')
+  countdownElements.minutes.textContent = String(Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0')
+  countdownElements.seconds.textContent = String(Math.floor((difference % (1000 * 60)) / 1000)).padStart(2, '0')
+}
+updateCountdown()
+setInterval(updateCountdown, 1000)
+
+const fireworkCanvas = document.getElementById('fireworkTrail')
+const fireworkContext = fireworkCanvas.getContext('2d')
+const sparks = []
+const fireworkRings = []
+const sparkColors = ['#ffd166', '#ff9f1c', '#ff5d73', '#f7e7a9', '#e64d78']
+let lastBurst = 0
+let pixelRatio = 1
+let fireworkFrame = null
+let canvasCssWidth = 0
+
+function resizeFireworkCanvas() {
+  if (reduceMotion) return
+  if (coarsePointer && canvasCssWidth === window.innerWidth) return
+  canvasCssWidth = window.innerWidth
+  pixelRatio = coarsePointer ? 1 : Math.min(window.devicePixelRatio || 1, 1.5)
+  fireworkCanvas.width = window.innerWidth * pixelRatio
+  fireworkCanvas.height = window.innerHeight * pixelRatio
+  fireworkCanvas.style.width = `${window.innerWidth}px`
+  fireworkCanvas.style.height = `${window.innerHeight}px`
+  fireworkContext.setTransform(pixelRatio, 0, 0, pixelRatio, 0, 0)
+}
+
+function burst(x, y, amount = 7, power = 1) {
+  if (reduceMotion) return
+  for (let index = 0; index < amount; index += 1) {
+    const angle = Math.random() * Math.PI * 2
+    const speed = (1.2 + Math.random() * 2.7) * power
+    sparks.push({
+      x, y, previousX: x, previousY: y,
+      velocityX: Math.cos(angle) * speed,
+      velocityY: Math.sin(angle) * speed,
+      color: sparkColors[Math.floor(Math.random() * sparkColors.length)],
+      life: 1,
+      decay: (coarsePointer ? .04 : .024) + Math.random() * (coarsePointer ? .025 : .022),
+      size: 2.4 + Math.random() * 3.8,
+    })
+  }
+  if (power > 1.2) {
+    fireworkRings.push({ x, y, radius: 5, life: 1, color: sparkColors[Math.floor(Math.random() * sparkColors.length)] })
+  }
+  const particleLimit = coarsePointer ? 110 : 280
+  if (sparks.length > particleLimit) sparks.splice(0, sparks.length - particleLimit)
+  requestFireworkFrame()
+}
+
+function requestFireworkFrame() {
+  if (fireworkFrame === null) fireworkFrame = requestAnimationFrame(animateFireworks)
+}
+
+function animateFireworks() {
+  fireworkFrame = null
+  fireworkContext.clearRect(0, 0, window.innerWidth, window.innerHeight)
+  fireworkContext.globalCompositeOperation = 'lighter'
+  for (let index = sparks.length - 1; index >= 0; index -= 1) {
+    const spark = sparks[index]
+    spark.previousX = spark.x
+    spark.previousY = spark.y
+    spark.x += spark.velocityX
+    spark.y += spark.velocityY
+    spark.velocityX *= .985
+    spark.velocityY = spark.velocityY * .985 + .025
+    spark.life -= spark.decay
+    if (spark.life <= 0) { sparks.splice(index, 1); continue }
+
+    fireworkContext.beginPath()
+    fireworkContext.arc(spark.x, spark.y, spark.size * spark.life, 0, Math.PI * 2)
+    fireworkContext.fillStyle = spark.color
+    fireworkContext.globalAlpha = spark.life
+    fireworkContext.shadowColor = spark.color
+    fireworkContext.shadowBlur = coarsePointer ? 0 : 7
+    fireworkContext.fill()
+  }
+  fireworkContext.shadowBlur = 0
+  for (let index = fireworkRings.length - 1; index >= 0; index -= 1) {
+    const ring = fireworkRings[index]
+    ring.radius += 2.8
+    ring.life -= .035
+    if (ring.life <= 0) { fireworkRings.splice(index, 1); continue }
+    fireworkContext.beginPath()
+    fireworkContext.arc(ring.x, ring.y, ring.radius, 0, Math.PI * 2)
+    fireworkContext.strokeStyle = ring.color
+    fireworkContext.lineWidth = 2.5 * ring.life
+    fireworkContext.globalAlpha = ring.life * .7
+    fireworkContext.stroke()
+  }
+  fireworkContext.globalAlpha = 1
+  if (sparks.length || fireworkRings.length) requestFireworkFrame()
+}
+
+if (reduceMotion) {
+  fireworkCanvas.hidden = true
+} else {
+  resizeFireworkCanvas()
+  window.addEventListener('resize', resizeFireworkCanvas, { passive: true })
+  const handleMove = (x, y) => {
+    const throttle = coarsePointer ? 120 : 75
+    if (Date.now() - lastBurst < throttle) return
+    lastBurst = Date.now()
+    burst(x, y, coarsePointer ? 2 : 6, coarsePointer ? .5 : .75)
+  }
+  const handleDown = (x, y) => burst(x, y, coarsePointer ? 12 : 25, coarsePointer ? 1.1 : 1.55)
+
+  window.addEventListener('pointermove', (e) => handleMove(e.clientX, e.clientY), { passive: true })
+  window.addEventListener('pointerdown', (e) => handleDown(e.clientX, e.clientY), { passive: true })
+  window.addEventListener('touchmove', (e) => {
+    if (e.touches.length) handleMove(e.touches[0].clientX, e.touches[0].clientY)
+  }, { passive: true })
+  window.addEventListener('touchstart', (e) => {
+    if (e.touches.length) handleDown(e.touches[0].clientX, e.touches[0].clientY)
+  }, { passive: true })
+}
+
+const eventSlider = document.getElementById('eventSlider')
+const sliderDots = document.querySelectorAll('.slider-dots span')
+let sliderFrame = null
+eventSlider.addEventListener('scroll', () => {
+  if (sliderFrame !== null) return
+  sliderFrame = requestAnimationFrame(() => {
+  const cards = [...eventSlider.querySelectorAll('.event-day')]
+  const center = eventSlider.scrollLeft + eventSlider.clientWidth / 2
+  let active = 0
+  let nearest = Infinity
+  cards.forEach((card, index) => {
+    const cardCenter = card.offsetLeft + card.offsetWidth / 2
+    const distance = Math.abs(center - cardCenter)
+    if (distance < nearest) { nearest = distance; active = index }
+  })
+  sliderDots.forEach((dot, index) => dot.classList.toggle('active', index === active))
+  sliderFrame = null
+  })
+}, { passive: true })
+
+const sectionLinks = [...document.querySelectorAll('.floating-nav a')]
+let sectionOffsets = []
+function refreshSectionOffsets() {
+  sectionOffsets = sectionLinks.map((link) => ({ link, top: document.querySelector(link.getAttribute('href'))?.offsetTop || 0 }))
+}
+function updateSectionNavigation() {
+  const marker = window.scrollY + window.innerHeight * .4
+  let current = sectionOffsets[0]?.link || sectionLinks[0]
+  sectionOffsets.forEach(({ link, top }) => {
+    if (top <= marker) current = link
+  })
+  sectionLinks.forEach((link) => link.classList.toggle('active', link === current))
+}
+refreshSectionOffsets()
+updateSectionNavigation()
+let navigationFrame = null
+window.addEventListener('scroll', () => {
+  if (navigationFrame !== null) return
+  navigationFrame = requestAnimationFrame(() => {
+    updateSectionNavigation()
+    navigationFrame = null
+  })
+}, { passive: true })
+let navigationWidth = window.innerWidth
+window.addEventListener('resize', () => {
+  if (window.innerWidth === navigationWidth) return
+  navigationWidth = window.innerWidth
+  refreshSectionOffsets()
+}, { passive: true })
+
+</script>
+</body>
+
+</html>
